@@ -9,8 +9,8 @@ This project provides a cloud-init datasource for pulling meta, user, and vendor
 And I don't know **what** it is now:
 
  - source was merged into a newer upstream release of cloud-init
- - EL7 and EL8 systems will NEVER see that
- - the author archived his project anyway, so EL7/8 are accidentally orphaned.
+ - EL7 and EL8 and maybe EL9 systems will NEVER see that, so it could be an issue for the next 10 years.
+ - the author archived his project, so EL7/8 are accidentally orphaned.
 
 I don't use govc, so I can't tell you if/why the current version doesn't work for you.  Open an issue if you want, and maybe someone else who has worked through the problem will come and help.  I also don't do anything with docker, so the build process may be different.
 
